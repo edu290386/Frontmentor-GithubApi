@@ -60,13 +60,13 @@
   }
   
   .input-search {
-    background-color: transparent;
+    background-color: #FFFFFF;
     border: none;
     margin-left: 15px;
     font-size: 20px;
     width: 85%;
     color: #fff;
-    
+    border-radius: 2px;
   }
   
   .input-search:focus {
