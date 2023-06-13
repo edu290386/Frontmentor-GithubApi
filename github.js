@@ -27,12 +27,12 @@ btn.onclick = () => {
 }
 
 input.addEventListener("keyup", (e) => {
-    if(e.key === "enter"){
+    if(e.key === "Enter"){
         obtenerDatos(e.target.value);
     }
 });
 
-const obtenerDatos = async (username = "linder3hs") => {
+const obtenerDatos = async (username = "edu290386") => {
     const response = await fetch(`https://api.github.com/users/${username}`);
     const data = await response.json();
     
