@@ -19,65 +19,71 @@
         <div class="input-container">
           <img width="15" src="./imagenes/search.png" alt="" />
           <input
+            id="input-search"
             class="input-search"
             type="text"
             placeholder="Ingresar usuario"
           />
         </div>
         <div>
-          <button class="btn-search">Search</button>
+          <button  
+          id="btn-search"
+          class="btn-search">Search</button>
         </div>
       </div>
       <div class="information-container">
         <div class="image-container">
-          <img width="100" src="./imagenes/Screenshot_8.png" alt="" />
+          <img id="img-profile" width="100" src="./imagenes/Screenshot_8.png" alt="" />
         </div>
         <div class="description-container">
           <div class="user-date-container">
-            <h2>Guillermo Sifuentes</h2>
-            <p>2021-07-24</p>
+            <h2 id="name-profile">Guillermo Sifuentes</h2>
+            <p id="user-created">2021-07-24</p>
           </div>
           <div class="user-bio-container">
-            <p>@guillermosifu</p>
-            <p>Front End-Developer..</p>
+            <p id="user-login">@guillermosifu</p>
+            <p id="user-bio">Front End-Developer..</p>
           </div>
           <div class="card-information">
             <div>
               <h5>Repos</h5>
-              <h2>110</h2>
+              <h2 id="user-repos">110</h2>
             </div>
             <div>
               <h5>Followers</h5>
-              <h2>40</h2>
+              <h2 id="user-followers">40</h2>
             </div>
             <div>
               <h5>Following</h5>
-              <h2>1</h2>
+              <h2 id="user-followings">1</h2>
             </div>
           </div>
           <div class="info-container">
             <div>
-              <p>
-                <img width="15" src="./imagenes/pin.png" alt="" />&nbsp;
+              <p >
+                <img width="15" 
+                src="./imagenes/pin.png" 
+                alt="" 
+                />&nbsp;<span id="user-location">No hay</span>
               </p>
-              <p>
+              <p >
                 <img
                   width="15"
                   src="./imagenes/link.png"
                   alt=""
-                />&nbsp;https://github.com/guillermosifu
+                />&nbsp;<span id="user-blog">https://github.com/guillermosifu</span>
               </p>
             </div>
             <div>
-              <p>
-                <img width="15" src="./imagenes/twitter.png" alt="" />&nbsp;
+              <p >
+                <img width="15" src="./imagenes/twitter.png" alt="" />&nbsp;<span id="user-twitter"></span>
               </p>
               <p>
                 <img
                   width="15"
                   src="./imagenes/hotel.png"
                   alt=""
-                />&nbsp;@guillermosifu
+                />&nbsp;<span id="user-company">@guillermosifu</span>
               </p>
             </div>
           </div>
@@ -85,4 +91,6 @@
       </div>
     </div>
   </body>
+  <script src="./github.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

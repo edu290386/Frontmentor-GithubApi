@@ -65,8 +65,8 @@
     margin-left: 15px;
     font-size: 20px;
     width: 85%;
-    color: #fff;
-    border-radius: 2px;
+    color: #000000;
+    border-radius: 5px;
   }
   
   .input-search:focus {
